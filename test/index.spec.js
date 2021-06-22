@@ -1,9 +1,5 @@
 const { getDecimal, getHR } = require('../server/commands');
-
-const exampleExam = '0101010101';
-
-const exampleTwo = '01111111';
-const exampleTen = '00011000';
+const { exampleExam, exampleTwo, exampleTen } = require('../server/constants');
 
 describe('Serial', () => {
   describe('Transform', () => {
@@ -23,4 +19,3 @@ describe('Serial', () => {
     })
   })
 })
-
